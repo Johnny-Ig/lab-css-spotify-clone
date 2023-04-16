@@ -10,102 +10,190 @@ body {
     margin: 15px 0; 
     background-color: #FFF;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+   
   }
 
-  #my-header {
+  .my-header {
     background-color:  #FFF;
     padding: 0px 0 0px 0; /* si ponemos dos valores es : arriba y abajo y izq y derecha*/
-    margin: 15px 0% 15px 0%;
+    margin: 15px 5% 15px 5%;
   }
-  #my-header img {
+  .my-header img {
    height: 100px;
    width: 200px;
    display: flex;
    justify-content: flex-start;
   }
 
-  #acceso-buttons {
-    height: 50px;
+  .acceso-buttons {
+    height: 70px;
    width: 100px;
    display: flex;
    
    justify-content: space-evenly;
    position: absolute;
-   top: 5%; right: 10%;
+   top: 3%; right: 10%;
   }
-
-  #banner img{
-    height: 500px;
-    width:100%;
-    position: relative;
-    top: 15%;
-    display: flex;
-    justify-content: center;
+  .banner {
+    background-image: url(./images/landing.jpg);
+    background-size: cover;
+    height: 1196px;
+    color:#FFF;
+    font-size: 3rem;
+    
   }
-
- .texto-encima {
-  color: blue;
+  .banner h1 {
+   
     position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 25%;
-    overflow: hidden;
+    top: 40%;
+    right: 35%;
+    
   }
 
-  #container {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-  align-items: center;
-  gap: 25%;
+ .banner h5 {
+  position: absolute;
+  top: 50%;
+  right: 30%;
+ }
+ .banner h6 {
+  position: absolute;
+  top: 60%;
+  right: 35%;
+  
+ }
+ .what {
+  font-size: 2rem;
+  border-bottom: solid;
+  border-color: #00B172;
+ }
 
-  }
-  .containerMillion {
-    width: 28%;
+
+   
+  
+
+ .container{
+  display: flex;
+  justify-content: space-around;
+ }
+  .container-million {
+    width: 40%;
     height: 300px;
-    position: absolute;
-    top: 60%;
-    border-style: solid;
-    border-right: 10%;
-    border-color: blueviolet;
-    display: flex;
-   left: 15px;
+    
+    
+    
   }
-  .containerMillion img {
+  .container-million h4{
+    font-size: 2rem;
+  }
+  .container-million img {
     width: 20%;
-    height: 200px;
-    position: absolute;
-    display: flex;
-    right: 200px;
-    top: 60px;
+   
+    
   }
+
+  
 
   .hd {
     width: 28%;
     height: 300px;
-    position: absolute;
-    top: 60%;
-    border-style: solid;
-    border-right: 10%;
-    border-color: blueviolet;
-    right: 10px;
     }
+  .hd h4 {
+    font-size: 2rem;
+  }
   .hd img {
-    width: 25%;
+    width: 20%;
   }
   .Stream {
     width: 28%;
     height: 300px;
-    position: absolute;
-    top: 60%;
-    border-style: solid;
-    border-right: 10%;
-    border-color: blueviolet;
-    right: 900px;
+    
+
+    
   }
   .Stream img {
     width: 25%;
     
-
-
+  }
+  .Stream h4{
+    font-size: 1.80rem;
+  }
+  .container-yeezy {
+    
+  }
+  .search {
+    background: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #00B172;
+    background-size: 140px;
+    height: 1000px;
+   
+  } 
+  .search h2 {
+    position: absolute;
+    top: 135%;
+    right: 70%;
+    font-size: 2rem;
+    
+  }
+  .search h3 {
+    position: absolute;
+    top: 145%;
+    right: 80%;
+    font-size: 2rem;
+  }
+  .p1 {
+    position: absolute;
+    top: 150%;
+    right: 70%;
+    font-size: 2rem
+  }
+  .p2 {
+    position: absolute;
+    top: 155%;
+    right: 74%;
+    font-size: 2rem
+  }
+  .h3b {
+    position: absolute;
+    top: 160%;
+    right: 80%;
+    font-size: 2rem;
+  }
+  .p3 {
+    position: absolute;
+    top: 165%;
+    right: 70%;
+    font-size: 2rem
+  }
+  .p4 {
+    position: absolute;
+    top: 170%;
+    right: 74%;
+    font-size: 2rem
+  }
+  .h3dis {
+    position: absolute;
+    top: 175%;
+    right: 80%;
+    font-size: 2rem
+  }
+  .p5 {
+    position: absolute;
+    top: 180%;
+    right: 60%;
+    font-size: 2rem
+  }
+  .p6 {
+    position: absolute;
+    top: 185%;
+    right: 70%;
+    font-size: 2rem
+  }
+  .app img {
+    height: 60%;
+    position: absolute;
+    top: 140%;
+    right: 10%;
   }
